@@ -7,7 +7,7 @@ function Jumbotron() {
     const handleLEarnMore = () =>{
         const element= document.querySelector(".sound-section");
         window.scrollTo({
-            top:element?.getBoundingClientReact().top,
+            top:element?.getBoundingClientRect().top,
             left:0,
             behavior:'smooth'
         });
